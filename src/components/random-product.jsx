@@ -42,18 +42,12 @@ export default function RandomProduct() {
   return (
     <div className="min-h-screen p-5">
       <div className="max-w-md mx-auto mb-8 text-center">
-        <h1 className="text-3xl font-bold mb-3">Random Product Generator</h1>
-
-        <p className="text-gray-500 mb-5">
-          Discover a random product from our store.
-        </p>
-
         <button
           onClick={randomize}
-          className="flex items-center gap-2 mx-auto bg-pink-600 text-white font-bold px-6 py-3 rounded-lg transition-colors"
+          className="flex items-center gap-2 mx-auto bg-green-900  text-blue font-bold px-6 py-3 rounded-lg transition-colors"
         >
           <Shuffle size={20} />
-          Randomize Product
+          Random Product
         </button>
 
         <p className="text-sm text-gray-500 mt-3">
